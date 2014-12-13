@@ -8,7 +8,12 @@
         "oauth"
     ],
     "homepage": "https://github.com/desmondmorris/node-twitter",
-    "author": "jdub, changes by desmondmorris",
+    "author": "jdub",
+    "contributors": [
+        "jdub",
+        "desmondmorris",
+        "Jan Kuča <jan@jankuca.com> (http://jankuca.com)"
+    ],
     "licenses": [
         {
             "type": "MIT",
@@ -20,7 +25,7 @@
         "url": "https://github.com/desmondmorris/node-twitter"
     },
     "dependencies": {
-        "oauth": ">=0.8.4",
+        "oauth": "jankuca/node-oauth#master",
         "cookies": ">=0.1.6",
         "keygrip": ">=0.1.7"
     },
